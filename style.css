@@ -1,12 +1,11 @@
-body{
+body, html{
     margin: 0px;
     padding: 0px;
     height: 100%;
 }
 
 .bg-container{
-    background-image: url("https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
-    opacity: 75%;
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,23 +14,63 @@ body{
 
 nav{
     text-align: center;
-    background-color: blueviolet;
+    padding: 20px;
 }
 
 ul{
-    padding: 10px;
+    
     list-style-type: none;
     margin: 0;
 }
-
 li{
     display: inline;
 }
 
 li a {
-    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }  
+
+.landing-page{
+    text-align: center;
+    padding: 70px;
+}
+
+.landing-page h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.landing-page h3{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.landing-page p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 0px 75px 0px 75px;
+}
+
+.home-button{
+    text-align: center;
+    padding-top: 10px;
+}
+
+button{
+    border-style: none;
+    border-radius: 20px;
+    color: rgb(10, 1, 44);
+    padding: 8px 20px 8px 20px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(190,186,255);
+    background: linear-gradient(90deg, rgba(190,186,255,1) 0%, rgba(228,228,255,1) 35%, rgba(253,255,255,1) 100%);
+}
