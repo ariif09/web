@@ -18,13 +18,12 @@ nav{
     background-color: blueviolet;
 }
 
-nav ul{
-    display: inline;
-    list-style: none;
+ul{
+    padding: 10px;
 }
 
-nav ul li{
-    padding: 10px;
+li{
+    display: inline;
 }
 
 nav ul li a{
