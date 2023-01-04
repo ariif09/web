@@ -70,6 +70,7 @@ button{
     color: rgb(10, 1, 44);
     padding: 8px 20px 8px 20px;
     font-size: 15px;
+    cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: rgb(190,186,255);
     background: linear-gradient(90deg, rgba(190,186,255,1) 0%, rgba(228,228,255,1) 35%, rgba(253,255,255,1) 100%);
