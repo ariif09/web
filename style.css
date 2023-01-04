@@ -2,3 +2,16 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+nav{
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+}
