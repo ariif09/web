@@ -1,35 +1,258 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Development Course</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>National Library of Maldives</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="bg-container">
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <script src="https://kit.fontawesome.com/afa043c4ff.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="p-0 m-0 border-0 bd-example">
 
-    <div class="landing-page">
-        <h1>Wanna be an Astronaut?</h1>
-        <h3>This is your chance to become a top Astronaut</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam enim adipisci, id consequatur optio hic illo natus tempora fugit nisi assumenda placeat harum, et ipsam suscipit. Aperiam aliquid minima at.</p>
-    
-        <div class="home-button">
-            <button>Get Started</button>
+    <div class="container-fluid bg-body-tertiary">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <img src="pp.png" alt="Bootstrap" width="30" height="30">
+                    <a class="navbar-brand p-1" href="#">National Library</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                            </li> -->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">OPAC</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Downloads</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex">
+                            <div class="p-1">
+                                <button class="btn btn-primary btn-sm" type="button">Sign up</button>
+                            </div>
+                            <div class="p-1">
+                                <button class="btn btn-outline-primary btn-sm" type="button">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </div>
-    
+    </div>
+        
+    <div class="container-fluid">
+        <div class="container">
+            <div class="d-flex h-100 align-items-center">
+                <div class="flex-grow-1 w-50 ps-5">
+                    <h1 class="fw-bold">ARE YOU A BOOKWORM?</h1>
+                    <h3>You Just Came to the Right Place</h3>
+                    <h5>Discover Something New. Explore Programs and Events.</h5>
+                    <button class="btn btn-primary">Find Out More</button>
+                </div>
+                <div class="flex-grow-1 w-50">
+                    <img src="20944530.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+            
+    <div class="container-fluid bg-body-tertiary">
+        <div class="container">
+            <div class="py-5 mt-5 text-center bg-body-tertiary">
+                <h2 class="">Our Services</h2>
+                <p class="lead">Our experienced and dedicated staff provide these services with a smile.</p>
+                <div class="row py-3">
+                    <div class="col">
+                        <div style="text-align: center;">
+                            <i class="fa-solid fa-book fa-4x"></i>
+                            <h4 style="margin-top: 0.25em;">Referencing</h4>
+                            <p>"Assistance or instruction with using the library, including locating materials, using the library catalog, using computers to access information, and using basic reference sources."</p>  
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div style="text-align: center;">
+                            <i class="fa-solid fa-wifi fa-4x"></i>
+                            <h4 style="margin-top: 0.25em;">Free Wifi</h4>
+                            <p>"You are invited to explore the Library's vast online resources using your own wireless-enabled device."</p>  
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div style="text-align: center;">
+                            <i class="fa-solid fa-camera fa-4x"></i>
+                            <h4 style="margin-top: 0.25em;">Photocopying</h4>
+                            <p>"The Library provides self-service photocopiers for the convenience of its users (see the Library's Photocopying services page)."</p>  
+                        </div>
+                    </div>
+                </div>
+                <div class="row py-3">
+                    <div class="col">
+                        <div style="text-align: center;">
+                            <i class="fa-solid fa-magnifying-glass fa-4x"></i>
+                            <h4 style="margin-top: 0.25em;">OPAC</h4>
+                            <p>"An online catalogue that enables users to locate library materials from a remote area if connected to the internet."</p>  
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div style="text-align: center;">
+                            <i class="fa-solid fa-users fa-4x"></i>
+                            <h4 style="margin-top: 0.25em;">Discussion Room</h4>
+                            <p>"Discussion Rooms are provided for group study and discussions only. Discussion Rooms may be used for 2 hours by group of 4 - 8 persons."</p>  
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div style="text-align: center;">
+                            <i class="fa-solid fa-house-laptop fa-4x"></i>
+                            <h4 style="margin-top: 0.25em;">Remote Access</h4>
+                            <p>"To access electronic resources remotely, you must be recognised as a member of Ca' Foscari and thus obtain all the related rights."</p>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+            
+    <div class="container-fluid">
+        <div class="container">
+            <div class="d-flex p-3 mt-5 align-items-center">
+                <div class="flex-grow-1 w-50">
+                    <h2>Our Search Engine - OPAC</h2>
+                    <p class="lead fs-6">Access to our collections through Online Public Access Catalogue.</p>
+                    <p class="lead fs-6">All the library resources are indexed in a systematic and logical way in the library Online Public Access Catalogue, which users can browse through at their conveniences</p>
+                    <div class="container-fluid p-0">
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-primary" type="submit">Search</button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="flex-grow-1 w-50">
+                    <img src="11000.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
     </div>
-</body>
+
+    <div class="container-fluid bg-body-tertiary">
+        <div class="container">
+            <div class="jumbotron p-3 mt-5 bg-body-tertiary">
+                <h2>Hello, world!</h2>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p class="lead">
+                  <a class="btn btn-primary btn-sm" href="#" role="button">Learn more</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Boat on Calm Water"
+                />
+            
+                <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Wintry Mountain Landscape"
+                />
+                </div>
+            
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mountains in the Clouds"
+                />
+            
+                <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Boat on Calm Water"
+                />
+                </div>
+            
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Waves at Sea"
+                />
+            
+                <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Yosemite National Park"
+                />
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+            
+    <div class="container-fluid">
+        <div class="container">
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                  <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                      <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+                    </a>
+                    <span class="mb-3 mb-md-0 text-muted">&copy; 2022 National Library of Maldives</span>
+                  </div>
+              
+                  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-facebook fa-1x"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-twitter fa-1x"></i></a></li>
+                    <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-instagram fa-1x"></i></a></li>
+                  </ul>
+                </footer>
+              </div>
+        </div>
+    </div>
+    
+    
+  </body>
 </html>
